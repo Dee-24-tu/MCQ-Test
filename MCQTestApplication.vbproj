@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5E209488-2124-4B04-8E33-79C91D0BC8A3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MCQTestApplication.My.MyApplication</StartupObject>
+    <RootNamespace>MCQTestApplication</RootNamespace>
+    <AssemblyName>MCQTestApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MCQTestApplication.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MCQTestApplication.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calculator.Designer.vb">
+      <DependentUpon>Calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.vb">
+      <DependentUpon>Help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCQTest5.Designer.vb">
+      <DependentUpon>MCQTest5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MCQTest5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCQTest2.Designer.vb">
+      <DependentUpon>MCQTest2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MCQTest2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCQTest3.Designer.vb">
+      <DependentUpon>MCQTest3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MCQTest3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCQTest4.Designer.vb">
+      <DependentUpon>MCQTest4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MCQTest4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCQTest10.Designer.vb">
+      <DependentUpon>MCQTest10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MCQTest10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCQTest6.Designer.vb">
+      <DependentUpon>MCQTest6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MCQTest6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCQTest7.Designer.vb">
+      <DependentUpon>MCQTest7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MCQTest7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCQTest8.Designer.vb">
+      <DependentUpon>MCQTest8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MCQTest8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCQTest9.Designer.vb">
+      <DependentUpon>MCQTest9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MCQTest9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logon.Designer.vb">
+      <DependentUpon>Logon.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MCQTest1.Designer.vb">
+      <DependentUpon>MCQTest1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MCQTest1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuOptions.Designer.vb">
+      <DependentUpon>MenuOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TestResults.Designer.vb">
+      <DependentUpon>TestResults.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestResults.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCQTest5.resx">
+      <DependentUpon>MCQTest5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCQTest2.resx">
+      <DependentUpon>MCQTest2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCQTest3.resx">
+      <DependentUpon>MCQTest3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCQTest4.resx">
+      <DependentUpon>MCQTest4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCQTest10.resx">
+      <DependentUpon>MCQTest10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCQTest6.resx">
+      <DependentUpon>MCQTest6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCQTest7.resx">
+      <DependentUpon>MCQTest7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCQTest8.resx">
+      <DependentUpon>MCQTest8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCQTest9.resx">
+      <DependentUpon>MCQTest9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logon.resx">
+      <DependentUpon>Logon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MCQTest1.resx">
+      <DependentUpon>MCQTest1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuOptions.resx">
+      <DependentUpon>MenuOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResults.resx">
+      <DependentUpon>TestResults.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
